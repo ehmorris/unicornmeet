@@ -1,2 +1,11 @@
+title: Chad Mazzola &mdash; designer, etc.
+
 auto: true
+markdown: rdiscount
+rdiscount:
+ extensions: [smart]
+
+permalink: "pretty"
+exclude:
+- Rakefile
 

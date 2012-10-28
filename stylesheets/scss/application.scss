@@ -2,6 +2,54 @@
 @import 'bourbon/bourbon';
 
 body {
+  color: #555;
   font-family: "helvetica neue", helvetica, arial, sans-serif;
+  margin: 0 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 100px auto;
+
+  h2 {
+    color: #222;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 32px 0;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 16px 0;
+
+    &.divider {
+      text-align: center;
+    }
+  }
+
+  .share {
+    @extend .clearfix;
+    margin: 48px 0;
+    text-align: center;
+
+    span {
+      display: inline-block;
+      margin: 0 10px;
+    }
+  }
+
+  blockquote {
+    margin: 32px 0;
+    padding: 0 12%;
+
+    p {
+      font-weight: bold;
+    }
+  }
+
+  em {
+    font-style: italic;
+  }
 }
 

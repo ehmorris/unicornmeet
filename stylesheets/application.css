@@ -49,16 +49,47 @@ table {
 
 /* Clear Floated Elements
 ------------------------------------------------------------------------------*/
-.clearfix:before,
-.clearfix:after {
+.clearfix:before, .container .share:before,
+.clearfix:after,
+.container .share:after {
   content: " ";
   display: table; }
 
-.clearfix:after {
+.clearfix:after, .container .share:after {
   clear: both; }
 
-.clearfix {
+.clearfix, .container .share {
   *zoom: 1; }
 
 body {
-  font-family: "helvetica neue", helvetica, arial, sans-serif; }
+  color: #555;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  margin: 0 20px; }
+
+.container {
+  max-width: 600px;
+  margin: 100px auto; }
+  .container h2 {
+    color: #222;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 32px 0; }
+  .container p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 16px 0; }
+    .container p.divider {
+      text-align: center; }
+  .container .share {
+    margin: 48px 0;
+    text-align: center; }
+    .container .share span {
+      display: inline-block;
+      margin: 0 10px; }
+  .container blockquote {
+    margin: 32px 0;
+    padding: 0 12%; }
+    .container blockquote p {
+      font-weight: bold; }
+  .container em {
+    font-style: italic; }
