@@ -15,7 +15,7 @@ Many will object and say that no single person can learn the depths of everythin
 
 Humans increasingly spend their lives within the digital environments that we are creating. Having individuals who understand the interconnected nature of everything involved in the creation of these spaces can ensure that they remain humane and empowering for the people who exist within them.
 
-Admittedly, before we can "transcend the minutia of Skill", we must first come to an understanding of the details. Patient study slowly incorporates them into intuition, which then frees us to focus on the "what" of is being built, rather than the "how".
+Admittedly, before we can "transcend the minutia of Skill", we must first come to an understanding of the details. Patient study slowly incorporates them into intuition, which then frees us to focus on the "what", rather than the "how".
 
 This site will become a repository of advice, knowledge, and inspiration for those who wish to dedicate themselves to the patient study and practice of The True Way.
 
