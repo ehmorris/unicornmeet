@@ -5,7 +5,7 @@ title: The Unicorn Manifesto
 author: Chad Mazzola
 ---
 
-We call designers who can code "unicorns". The term is a playful nod to how rare these people are thought to be. A quick google search will reveal a number of articles that answer the question, "How do I find (and hire) a unicorn for my startup?" The articles warn that finding one of these mythical creatures is rare, and usually end with, "And really, how many designers can actually code *well?*"
+We call designers who can code "unicorns". The term is a playful nod to how rare they are thought to be. A quick google search will reveal a number of articles that answer the question, "How do I find (and hire) a unicorn for my startup?" The articles warn that finding one of these mythical creatures is rare, and usually end with, "And really, how many designers can actually code *well?*"
 
 We need to change the nature of this conversation. A unicorn is not simply a designer who understands SQL. A unicorn is someone who has a broad and deep understanding of the design and implementation of tools, products, and services that make user needs the top priority.
 

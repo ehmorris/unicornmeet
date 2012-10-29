@@ -1,0 +1,18 @@
+header {
+  margin: 64px;
+
+  h1 {
+    a {
+      $radius: 80px;
+
+      @extend %hide-text;
+      background: url("/images/logo.png") no-repeat;
+      background-size: $radius $radius;
+      display: block;
+      height: $radius;
+      margin: 0 auto;
+      width: $radius;
+    }
+  }
+}
+

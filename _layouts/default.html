@@ -7,11 +7,16 @@
     <title>{% if page.title %}{{ page.title }} &bull; {% endif %}{{ site.title }}</title>
     <link rel="stylesheet" href="/stylesheets/application.css" media="screen">
     <link href="/feeds/articles.xml" rel="alternate" title="RSS feed" type="application/atom+xml">
+    <link rel="shortcut icon" href="/favicon.png">
     {% include analytics.html %}
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   </head>
 
   <body class="body-{{ page.type }}">
+    <header>
+      <h1><a href="/">unicornmeet</a></h1>
+    </header>
+
     <section class="container">
       <section class="content">
         {{ content }}

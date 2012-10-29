@@ -1,5 +1,7 @@
 @import 'reset';
 @import 'bourbon/bourbon';
+@import 'mixins';
+@import 'header';
 
 body {
   color: #555;
@@ -9,7 +11,7 @@ body {
 
 .container {
   max-width: 600px;
-  margin: 100px auto;
+  margin: 64px auto;
 
   .post {
     h2 {
