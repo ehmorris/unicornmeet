@@ -49,16 +49,16 @@ table {
 
 /* Clear Floated Elements
 ------------------------------------------------------------------------------*/
-.clearfix:before, .container .share:before,
+.clearfix:before, .container .post .share:before,
 .clearfix:after,
-.container .share:after {
+.container .post .share:after {
   content: " ";
   display: table; }
 
-.clearfix:after, .container .share:after {
+.clearfix:after, .container .post .share:after {
   clear: both; }
 
-.clearfix, .container .share {
+.clearfix, .container .post .share {
   *zoom: 1; }
 
 body {
@@ -69,27 +69,35 @@ body {
 .container {
   max-width: 600px;
   margin: 100px auto; }
-  .container h2 {
+  .container .post h2 {
     color: #222;
     font-size: 32px;
     font-weight: 700;
-    margin: 0 0 32px 0; }
-  .container p {
+    margin: 0 0 8px 0; }
+    .container .post h2 a {
+      color: inherit;
+      text-decoration: none; }
+  .container .post p {
     font-size: 16px;
     line-height: 1.5;
     margin: 0 0 16px 0; }
-    .container p.divider {
+    .container .post p.meta {
+      color: #777;
+      font-size: 14px; }
+      .container .post p.meta a {
+        color: inherit;
+        text-decoration: none; }
+    .container .post p.divider {
       text-align: center; }
-  .container .share {
-    margin: 48px 0;
-    text-align: center; }
-    .container .share span {
+  .container .post .share {
+    margin: 48px 0; }
+    .container .post .share span {
       display: inline-block;
-      margin: 0 10px; }
-  .container blockquote {
+      margin: 0 20px 0 0; }
+  .container .post blockquote {
     margin: 32px 0;
     padding: 0 12%; }
-    .container blockquote p {
+    .container .post blockquote p {
       font-weight: bold; }
-  .container em {
+  .container .post em {
     font-style: italic; }

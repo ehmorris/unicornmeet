@@ -1,11 +1,11 @@
-title: Chad Mazzola &mdash; designer, etc.
+title: UnicornMeet
 
 auto: true
 markdown: rdiscount
 rdiscount:
  extensions: [smart]
 
-permalink: "pretty"
+permalink: /:year/:month/:title
 exclude:
 - Rakefile
 

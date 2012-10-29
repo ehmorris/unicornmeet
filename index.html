@@ -4,9 +4,8 @@ type: home
 ---
 
 {% for post in site.posts %}
-  <div class="post">
-    <h2>{{ post.title }}</h2>
-    {{ post.content }}
-  </div>
+  {% assign index = true %}
+  {% assign content = post.content %}
+  {% include article.html %}
 {% endfor %}
 
