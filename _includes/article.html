@@ -7,6 +7,9 @@
     <p class="meta">{{ page.author }} &bull; <a href="{{ page.url }}">{{page.date | date: "%d %B %Y" }}</a></p>
   {% endif %}
   {{ content }}
-  {% include share.html %}
+
+  {% if index == false) %}
+    {% include share.html %}
+  {% endif %}
 </div>
 

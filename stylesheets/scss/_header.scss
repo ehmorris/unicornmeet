@@ -24,7 +24,6 @@ header {
 
   h1 {
     a {
-
       @extend %hide-text;
       background: url("/images/logo.png") no-repeat;
       background-size: $radius $radius;
@@ -32,6 +31,10 @@ header {
       height: $radius;
       margin: 0 auto;
       width: $radius;
+
+      &:hover {
+        border: 0;
+      }
     }
   }
 }
