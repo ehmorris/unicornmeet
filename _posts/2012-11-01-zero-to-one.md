@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-title: The Path from Zero to One
+title: Going from Zero to One
 author: Chad Mazzola
 ---
 
