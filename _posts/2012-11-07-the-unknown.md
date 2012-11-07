@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-title: The Unknown
+title: The Weight of the Unknown
 author: Chad Mazzola
 published: true
 ---
