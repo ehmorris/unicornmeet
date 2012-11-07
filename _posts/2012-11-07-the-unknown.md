@@ -1,7 +1,7 @@
 ---
 layout: post
 type: post
-title: The Unknowable
+title: The Unknown
 author: Chad Mazzola
 published: true
 ---
