@@ -132,6 +132,17 @@ a {
           text-decoration: none; }
       .container .post p.divider {
         text-align: center; }
+    .container .post ul,
+    .container .post ol {
+      margin: 16px 0; }
+      .container .post ul li,
+      .container .post ol li {
+        line-height: 1.5;
+        margin: 0 0 8px 0; }
+    .container .post ul {
+      list-style: disc outside; }
+    .container .post strong {
+      font-weight: 600; }
     .container .post .share {
       margin: 36px 0 0 0; }
       .container .post .share span {

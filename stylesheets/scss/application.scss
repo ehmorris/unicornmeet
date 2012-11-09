@@ -63,6 +63,24 @@ a {
       }
     }
 
+    ul,
+    ol {
+      margin: 16px 0;
+
+      li {
+        line-height: 1.5;
+        margin: 0 0 8px 0;
+      }
+    }
+
+    ul {
+      list-style: disc outside;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
     .share {
       @extend .clearfix;
       margin: 36px 0 0 0;
