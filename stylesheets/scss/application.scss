@@ -10,7 +10,7 @@ body {
 }
 
 a {
-  color: #222;
+  color: #070707;
   font-weight: 700;
   text-decoration: none;
 
@@ -24,16 +24,19 @@ a {
   margin: 64px auto;
 
   .post {
-    margin: 0 0 100px 0;
+    color: #333;
+    margin: 0 0 140px 0;
 
     h2 {
       color: #222;
-      font-size: 32px;
-      font-weight: 700;
-      margin: 0 0 8px 0;
+      font-size: 36px;
+      font-weight: 300;
+      margin: 0 0 16px 0;
+      text-align: center;
 
       a {
         color: inherit;
+        font-weight: inherit;
         text-decoration: none;
 
         &:hover {
@@ -50,11 +53,18 @@ a {
       &.meta {
         color: #777;
         font-size: 14px;
+        margin: 0 0 48px 0;
+        text-align: center;
 
         a {
           border: 0;
           color: inherit;
+          font-weight: 400;
           text-decoration: none;
+
+          &:hover {
+            border-bottom: 1px solid #777;
+          }
         }
       }
 
@@ -79,7 +89,7 @@ a {
 
     .share {
       @extend .clearfix;
-      margin: 36px 0 0 0;
+      margin: 64px 0 0 0;
 
       span {
         display: inline-block;

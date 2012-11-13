@@ -68,7 +68,7 @@ header h1 a {
   overflow: hidden; }
 
 header {
-  margin: 64px; }
+  margin: 64px 0 82px; }
   header ol {
     margin: 0 auto;
     width: 80px; }
@@ -98,7 +98,7 @@ body {
   margin: 0 20px; }
 
 a {
-  color: #222;
+  color: #070707;
   font-weight: 700;
   text-decoration: none; }
   a:hover {
@@ -108,14 +108,17 @@ a {
   max-width: 600px;
   margin: 64px auto; }
   .container .post {
-    margin: 0 0 100px 0; }
+    color: #333;
+    margin: 0 0 140px 0; }
     .container .post h2 {
       color: #222;
-      font-size: 32px;
-      font-weight: 700;
-      margin: 0 0 8px 0; }
+      font-size: 36px;
+      font-weight: 300;
+      margin: 0 0 16px 0;
+      text-align: center; }
       .container .post h2 a {
         color: inherit;
+        font-weight: inherit;
         text-decoration: none; }
         .container .post h2 a:hover {
           border: 0; }
@@ -125,11 +128,16 @@ a {
       margin: 0 0 16px 0; }
       .container .post p.meta {
         color: #777;
-        font-size: 14px; }
+        font-size: 14px;
+        margin: 0 0 48px 0;
+        text-align: center; }
         .container .post p.meta a {
           border: 0;
           color: inherit;
+          font-weight: 400;
           text-decoration: none; }
+          .container .post p.meta a:hover {
+            border-bottom: 1px solid #777; }
       .container .post p.divider {
         text-align: center; }
     .container .post ul,
@@ -142,7 +150,7 @@ a {
     .container .post strong {
       font-weight: 600; }
     .container .post .share {
-      margin: 36px 0 0 0; }
+      margin: 64px 0 0 0; }
       .container .post .share span {
         display: inline-block;
         margin: 0 20px 0 0; }
