@@ -2,6 +2,7 @@
 @import 'bourbon/bourbon';
 @import 'mixins';
 @import 'header';
+@import 'footer';
 
 body {
   color: #555;
@@ -53,7 +54,7 @@ a {
       &.meta {
         color: #777;
         font-size: 14px;
-        margin: 0 0 48px 0;
+        margin: 0 0 42px 0;
         text-align: center;
 
         a {
@@ -90,11 +91,7 @@ a {
     .share {
       @extend .clearfix;
       margin: 64px 0 0 0;
-
-      span {
-        display: inline-block;
-        margin: 0 20px 0 0;
-      }
+      text-align: center;
     }
 
     blockquote {

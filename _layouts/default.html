@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="description" content="Helping erase the designer/developer split to inspire multi-disciplinary software makers.">
     <meta name="viewport" content="width=device-width; initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }} &mdash; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="stylesheet" href="/stylesheets/application.css" media="screen">
     <link href="/feeds/articles.xml" rel="alternate" title="RSS feed" type="application/atom+xml">
     <link rel="shortcut icon" href="/favicon.png">
@@ -23,6 +23,11 @@
       <section class="content">
         {{ content }}
       </section>
+
+      <footer>
+        <h6><span>About unicornmeet</span></h6>
+        <p>unicornmeet is dedicated to erasing the designer/developer divide to inspire multi-disciplinary software makers. You can <a href="https://twitter.com/unicornmeet">follow us on twitter</a> and <a href="#">view the code for this site on GitHub</a>.</p>
+      </footer>
     </section>
   </body>
 </html>

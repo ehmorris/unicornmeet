@@ -92,6 +92,28 @@ header {
     header h1 a:hover {
       border: 0; }
 
+footer {
+  border-bottom: 1px dotted #ddd;
+  margin: 0 0 124px 0;
+  padding: 0 0 24px 0; }
+  footer h6 {
+    border-top: 1px dotted #ddd;
+    color: #555;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 0 18px 0;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase; }
+    footer h6 span {
+      background: #fff;
+      padding: 0 18px;
+      position: relative;
+      top: -8px; }
+  footer p {
+    line-height: 1.5; }
+
 body {
   color: #555;
   font-family: "helvetica neue", helvetica, arial, sans-serif;
@@ -129,7 +151,7 @@ a {
       .container .post p.meta {
         color: #777;
         font-size: 14px;
-        margin: 0 0 48px 0;
+        margin: 0 0 42px 0;
         text-align: center; }
         .container .post p.meta a {
           border: 0;
@@ -150,10 +172,8 @@ a {
     .container .post strong {
       font-weight: 600; }
     .container .post .share {
-      margin: 64px 0 0 0; }
-      .container .post .share span {
-        display: inline-block;
-        margin: 0 20px 0 0; }
+      margin: 64px 0 0 0;
+      text-align: center; }
     .container .post blockquote {
       margin: 32px 0;
       padding: 0 12%; }
