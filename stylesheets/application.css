@@ -49,18 +49,17 @@ table {
 
 /* Clear Floated Elements
 ------------------------------------------------------------------------------*/
-.clearfix:before, header ol:before, footer ul:before, .container .post .share:before,
+.clearfix:before, header ol:before, footer ul:before,
 .clearfix:after,
 header ol:after,
-footer ul:after,
-.container .post .share:after {
+footer ul:after {
   content: " ";
   display: table; }
 
-.clearfix:after, header ol:after, footer ul:after, .container .post .share:after {
+.clearfix:after, header ol:after, footer ul:after {
   clear: both; }
 
-.clearfix, header ol, footer ul, .container .post .share {
+.clearfix, header ol, footer ul {
   *zoom: 1; }
 
 header h1 a {
@@ -93,13 +92,66 @@ header {
     header h1 a:hover {
       border: 0; }
 
+.container .post {
+  color: #333;
+  margin: 0 0 140px 0; }
+  .container .post h2 {
+    color: #222;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0 0 16px 0;
+    text-align: center; }
+    .container .post h2 a {
+      color: inherit;
+      font-weight: inherit;
+      text-decoration: none; }
+      .container .post h2 a:hover {
+        border: 0; }
+  .container .post p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 16px 0; }
+    .container .post p.meta {
+      color: #777;
+      font-size: 14px;
+      margin: 0 0 42px 0;
+      text-align: center; }
+      .container .post p.meta a {
+        border: 0;
+        color: inherit;
+        font-weight: 400;
+        text-decoration: none; }
+        .container .post p.meta a:hover {
+          border-bottom: 1px solid #777; }
+    .container .post p.divider {
+      text-align: center; }
+  .container .post ul,
+  .container .post ol {
+    margin: 16px 0; }
+    .container .post ul li,
+    .container .post ol li {
+      line-height: 1.5;
+      margin: 0 0 8px 0; }
+  .container .post strong {
+    font-weight: 600; }
+  .container .post blockquote {
+    margin: 32px 0;
+    padding: 0 12%; }
+    .container .post blockquote p {
+      font-weight: bold; }
+  .container .post em {
+    font-style: italic; }
+
 footer {
   border-bottom: 1px dotted #ddd;
+  color: #555;
   margin: 0 0 124px 0;
   padding: 0 0 24px 0; }
+  footer a {
+    color: #555; }
   footer h6 {
     border-top: 1px dotted #ddd;
-    color: #555;
+    color: #777;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -122,11 +174,13 @@ footer {
       text-align: center; }
       footer ul li a {
         border-bottom: 1px solid transparent;
+        color: #555;
         display: inline;
+        font-weight: 400;
         line-height: 1.4;
         margin: 0 0 4px 0; }
       footer ul li .date {
-        color: #777;
+        color: #999;
         display: inline;
         font-size: 12px;
         font-weight: 300;
@@ -149,55 +203,3 @@ a {
 .container {
   max-width: 600px;
   margin: 64px auto; }
-  .container .post {
-    color: #333;
-    margin: 0 0 140px 0; }
-    .container .post h2 {
-      color: #222;
-      font-size: 36px;
-      font-weight: 300;
-      margin: 0 0 16px 0;
-      text-align: center; }
-      .container .post h2 a {
-        color: inherit;
-        font-weight: inherit;
-        text-decoration: none; }
-        .container .post h2 a:hover {
-          border: 0; }
-    .container .post p {
-      font-size: 16px;
-      line-height: 1.5;
-      margin: 0 0 16px 0; }
-      .container .post p.meta {
-        color: #777;
-        font-size: 14px;
-        margin: 0 0 42px 0;
-        text-align: center; }
-        .container .post p.meta a {
-          border: 0;
-          color: inherit;
-          font-weight: 400;
-          text-decoration: none; }
-          .container .post p.meta a:hover {
-            border-bottom: 1px solid #777; }
-      .container .post p.divider {
-        text-align: center; }
-    .container .post ul,
-    .container .post ol {
-      margin: 16px 0; }
-      .container .post ul li,
-      .container .post ol li {
-        line-height: 1.5;
-        margin: 0 0 8px 0; }
-    .container .post strong {
-      font-weight: 600; }
-    .container .post .share {
-      margin: 64px 0 0 0;
-      text-align: center; }
-    .container .post blockquote {
-      margin: 32px 0;
-      padding: 0 12%; }
-      .container .post blockquote p {
-        font-weight: bold; }
-    .container .post em {
-      font-style: italic; }
