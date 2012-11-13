@@ -1,0 +1,21 @@
+<footer>
+  <h6><span>Read more</span></h6>
+
+  {% if page.type == "post") %}
+    <div class="related-posts">
+      <ul>
+        {% for post in site.related_posts limit:5 %}
+        <li>
+          <a href="{{ post.url }}">
+            <span class="title">{{ post.title }}</span>
+          </a>
+          <span class="date">{{ post.date | date_to_string }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
+  <p>unicornmeet is dedicated to erasing the designer/developer divide to inspire multi-disciplinary software makers. You can <a href="https://twitter.com/unicornmeet">follow us on twitter</a> and <a href="https://github.com/ubuwaits/unicornmeet">view the code for this site on GitHub</a>.</p>
+</footer>
+

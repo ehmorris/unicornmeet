@@ -6,10 +6,7 @@
     <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
     <p class="meta">{{ page.author }} &bull; <a href="{{ page.url }}">{{page.date | date: "%d %B %Y" }}</a></p>
   {% endif %}
-  {{ content }}
 
-  {% if index == false) %}
-    {% include share.html %}
-  {% endif %}
+  {{ content }}
 </div>
 

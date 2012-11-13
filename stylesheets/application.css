@@ -49,17 +49,18 @@ table {
 
 /* Clear Floated Elements
 ------------------------------------------------------------------------------*/
-.clearfix:before, header ol:before, .container .post .share:before,
+.clearfix:before, header ol:before, footer ul:before, .container .post .share:before,
 .clearfix:after,
 header ol:after,
+footer ul:after,
 .container .post .share:after {
   content: " ";
   display: table; }
 
-.clearfix:after, header ol:after, .container .post .share:after {
+.clearfix:after, header ol:after, footer ul:after, .container .post .share:after {
   clear: both; }
 
-.clearfix, header ol, .container .post .share {
+.clearfix, header ol, footer ul, .container .post .share {
   *zoom: 1; }
 
 header h1 a {
@@ -102,7 +103,7 @@ footer {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 1px;
-    margin: 0 0 18px 0;
+    margin: 0 0 16px 0;
     position: relative;
     text-align: center;
     text-transform: uppercase; }
@@ -111,6 +112,25 @@ footer {
       padding: 0 18px;
       position: relative;
       top: -8px; }
+  footer ul {
+    margin: 0 0 12px 0; }
+    footer ul li {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 0 0 6px 0;
+      text-align: center; }
+      footer ul li a {
+        border-bottom: 1px solid transparent;
+        display: inline;
+        line-height: 1.4;
+        margin: 0 0 4px 0; }
+      footer ul li .date {
+        color: #777;
+        display: inline;
+        font-size: 12px;
+        font-weight: 300;
+        margin: 0 0 0 4px; }
   footer p {
     line-height: 1.5; }
 
