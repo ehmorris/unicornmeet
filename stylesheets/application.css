@@ -49,28 +49,17 @@ table {
 
 /* Clear Floated Elements
 ------------------------------------------------------------------------------*/
-.clearfix:before, header:before, header ol:before, footer ul:before,
+.clearfix:before, footer ul:before,
 .clearfix:after,
-header:after,
-header ol:after,
 footer ul:after {
   content: " ";
   display: table; }
 
-.clearfix:after, header:after, header ol:after, footer ul:after {
+.clearfix:after, footer ul:after {
   clear: both; }
 
-.clearfix, header, header ol, footer ul {
+.clearfix, footer ul {
   *zoom: 1; }
-
-header ol {
-  float: right;
-  margin: 1.5em; }
-  header ol li h1 a {
-    border-bottom: 4px solid #000;
-    font-size: 1.75em;
-    font-weight: 900;
-    text-transform: uppercase; }
 
 .container .post {
   border-bottom: 1px dotted #ddd;
