@@ -49,67 +49,47 @@ table {
 
 /* Clear Floated Elements
 ------------------------------------------------------------------------------*/
-.clearfix:before, header ol:before, footer ul:before,
+.clearfix:before, header:before, header ol:before, footer ul:before,
 .clearfix:after,
+header:after,
 header ol:after,
 footer ul:after {
   content: " ";
   display: table; }
 
-.clearfix:after, header ol:after, footer ul:after {
+.clearfix:after, header:after, header ol:after, footer ul:after {
   clear: both; }
 
-.clearfix, header ol, footer ul {
+.clearfix, header, header ol, footer ul {
   *zoom: 1; }
 
-header h1 a {
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden; }
-
-header {
-  margin: 48px 0 64px; }
-  header ol {
-    margin: 0 auto;
-    width: 80px; }
-    header ol li {
-      float: left;
-      line-height: 80px; }
-      header ol li a {
-        color: #999;
-        font-size: 10px;
-        font-weight: 300;
-        letter-spacing: 2px;
-        text-decoration: none;
-        text-transform: uppercase; }
-  header h1 a {
-    background: url("/images/logo.png") no-repeat;
-    background-size: 80px 80px;
-    display: block;
-    height: 80px;
-    margin: 0 auto;
-    width: 80px; }
-    header h1 a:hover {
-      border: 0; }
+header ol {
+  float: right;
+  margin: 1.5em; }
+  header ol li h1 a {
+    border-bottom: 4px solid #000;
+    font-size: 1.75em;
+    font-weight: 900;
+    text-transform: uppercase; }
 
 .container .post {
   border-bottom: 1px dotted #ddd;
-  color: #333;
-  margin: 0 0 82px 0;
-  padding: 0 0 46px; }
+  margin: 0 0 8em 0;
+  padding: 0 0 4em; }
   .container .post:last-child {
     border-bottom: 0;
     padding-bottom: 0; }
   body.body-post .container .post {
     border-bottom: 0;
-    margin: 0 0 82px 0;
+    margin: 0 0 8em 0;
     padding: 0; }
   .container .post h2 {
-    color: #222;
-    font-size: 36px;
-    font-weight: 300;
-    margin: 0 0 16px 0;
-    text-align: center; }
+    color: #000;
+    display: inline-block;
+    font-size: 4em;
+    font-weight: 900;
+    letter-spacing: -2px;
+    margin: 0 0 0.25em 0; }
     .container .post h2 a {
       color: inherit;
       font-weight: inherit;
@@ -117,18 +97,17 @@ header {
       .container .post h2 a:hover {
         border: 0; }
   .container .post p {
-    font-size: 16px;
+    font-size: 1.5em;
     line-height: 1.5;
-    margin: 0 0 16px 0; }
+    margin: 0 0 0.75em 0; }
     .container .post p.meta {
-      color: #777;
-      font-size: 14px;
-      margin: 0 0 42px 0;
-      text-align: center; }
+      color: #000;
+      font-size: 1.25em;
+      margin: 0 0 3em 0; }
       .container .post p.meta a {
         border: 0;
         color: inherit;
-        font-weight: 400;
+        font-weight: 300;
         text-decoration: none; }
         .container .post p.meta a:hover {
           border-bottom: 1px solid #777; }
@@ -136,50 +115,71 @@ header {
       text-align: center; }
   .container .post ul,
   .container .post ol {
-    margin: 16px 0; }
+    margin: 1em 0; }
     .container .post ul li,
     .container .post ol li {
+      font-size: 1.5em;
       line-height: 1.5;
-      margin: 0 0 8px 0; }
+      margin: 0 0 0.75em 0; }
+      .container .post ul li p,
+      .container .post ol li p {
+        font-size: 1em; }
   .container .post strong {
-    font-weight: 600; }
+    font-weight: 700; }
   .container .post blockquote {
-    margin: 32px 0;
-    padding: 0 12%; }
+    border-left: 0.5em solid #000;
+    padding: 0 1em;
+    margin: 1.5em 0; }
     .container .post blockquote p {
-      font-weight: bold; }
+      font-weight: 700; }
   .container .post em {
     font-style: italic; }
 
+@media screen and (max-width: 600px) {
+  .container .post h2 {
+    font-size: 3em; }
+  .container .post p {
+    font-size: 1em; }
+    .container .post p.meta {
+      font-size: 1em; }
+  .container .post ul li,
+  .container .post ol li {
+    font-size: 1em; }
+
+  body.body-home .container .post {
+    margin-bottom: 4em; }
+
+  body.body-post .container .post {
+    margin-bottom: 4em; } }
 footer {
   border-bottom: 1px dotted #ddd;
   color: #555;
-  margin: 0 0 92px 0;
-  padding: 0 0 24px 0; }
+  margin: 0 0 6em 0;
+  padding: 0 0 2em 0; }
   footer a {
     color: #555; }
   footer h6 {
     border-top: 1px dotted #ddd;
     color: #777;
-    font-size: 14px;
+    font-size: 0.75em;
     font-weight: 700;
     letter-spacing: 1px;
-    margin: 0 0 16px 0;
+    margin: 0 0 1.25em 0;
     position: relative;
     text-align: center;
     text-transform: uppercase; }
     footer h6 span {
       background: #fff;
-      padding: 0 18px;
+      padding: 0 1em;
       position: relative;
-      top: -8px; }
+      top: -0.5em; }
   footer ul {
-    margin: 0 0 12px 0; }
+    margin: 0 0 0.75em 0; }
     footer ul li {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
-      padding: 0 0 6px 0;
+      padding: 0 0 0.25em 0;
       text-align: center; }
       footer ul li a {
         border-bottom: 1px solid transparent;
@@ -187,20 +187,26 @@ footer {
         display: inline;
         font-weight: 400;
         line-height: 1.4;
-        margin: 0 0 4px 0; }
+        margin: 0 0 0.25em 0; }
       footer ul li .date {
         color: #999;
         display: inline;
-        font-size: 12px;
+        font-size: 0.75em;
         font-weight: 300;
-        margin: 0 0 0 4px; }
+        margin: 0 0 0 0.25em; }
   footer p {
     line-height: 1.5; }
 
+@media screen and (max-width: 600px) {
+  footer {
+    margin-bottom: 3em; } }
 body {
-  color: #555;
-  font-family: "helvetica neue", helvetica, arial, sans-serif;
-  margin: 0 20px; }
+  background: #fff;
+  border: 2em solid #2384c6;
+  color: #000;
+  font-family: franklin-gothic-urw, "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 100%;
+  font-weight: 400; }
 
 a {
   color: #000;
@@ -210,5 +216,24 @@ a {
     border-bottom: 1px solid #222; }
 
 .container {
-  max-width: 580px;
-  margin: 64px auto; }
+  max-width: 42em;
+  margin: 4em; }
+
+.home {
+  margin: 2em;
+  text-align: right; }
+  body.body-home .home {
+    display: none; }
+  .home a {
+    border-bottom: 4px solid #000;
+    display: inline-block;
+    font-size: 1.75em;
+    font-weight: 900;
+    text-transform: uppercase; }
+
+@media screen and (max-width: 600px) {
+  body {
+    border-width: 0.5em; }
+
+  .container {
+    margin: 1.5em; } }

@@ -1,41 +1,22 @@
 header {
-  margin: 48px 0 64px;
-  $radius: 80px;
+  @extend .clearfix;
 
   ol {
     @extend .clearfix;
-    margin: 0 auto;
-    width: $radius;
+    float: right;
+    margin: 1.5em;
 
     li {
-      float: left;
-      line-height: $radius;
-
-      a {
-        color: #999;
-        font-size: 10px;
-        font-weight: 300;
-        letter-spacing: 2px;
-        text-decoration: none;
-        text-transform: uppercase;
+      h1 {
+        a {
+          border-bottom: 4px solid #000;
+          font-size: 1.75em;
+          font-weight: 900;
+          text-transform: uppercase;
+        }
       }
     }
   }
 
-  h1 {
-    a {
-      @extend %hide-text;
-      background: url("/images/logo.png") no-repeat;
-      background-size: $radius $radius;
-      display: block;
-      height: $radius;
-      margin: 0 auto;
-      width: $radius;
-
-      &:hover {
-        border: 0;
-      }
-    }
-  }
 }
 

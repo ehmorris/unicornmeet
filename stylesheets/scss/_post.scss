@@ -1,8 +1,7 @@
 .container .post {
   border-bottom: 1px dotted #ddd;
-  color: #333;
-  margin: 0 0 82px 0;
-  padding: 0 0 46px;
+  margin: 0 0 8em 0;
+  padding: 0 0 4em;
 
   &:last-child {
     border-bottom: 0;
@@ -11,16 +10,17 @@
 
   body.body-post & {
     border-bottom: 0;
-    margin: 0 0 82px 0;
+    margin: 0 0 8em 0;
     padding: 0;
   }
 
   h2 {
-    color: #222;
-    font-size: 36px;
-    font-weight: 300;
-    margin: 0 0 16px 0;
-    text-align: center;
+    color: #000;
+    display: inline-block;
+    font-size: 4em;
+    font-weight: 900;
+    letter-spacing: -2px;
+    margin: 0 0 0.25em 0;
 
     a {
       color: inherit;
@@ -34,20 +34,19 @@
   }
 
   p {
-    font-size: 16px;
+    font-size: 1.5em;
     line-height: 1.5;
-    margin: 0 0 16px 0;
+    margin: 0 0 0.75em 0;
 
     &.meta {
-      color: #777;
-      font-size: 14px;
-      margin: 0 0 42px 0;
-      text-align: center;
+      color: #000;
+      font-size: 1.25em;
+      margin: 0 0 3em 0;
 
       a {
         border: 0;
         color: inherit;
-        font-weight: 400;
+        font-weight: 300;
         text-decoration: none;
 
         &:hover {
@@ -63,24 +62,30 @@
 
   ul,
   ol {
-    margin: 16px 0;
+    margin: 1em 0;
 
     li {
+      font-size: 1.5em;
       line-height: 1.5;
-      margin: 0 0 8px 0;
+      margin: 0 0 0.75em 0;
+
+      p {
+        font-size: 1em;
+      }
     }
   }
 
   strong {
-    font-weight: 600;
+    font-weight: 700;
   }
 
   blockquote {
-    margin: 32px 0;
-    padding: 0 12%;
+    border-left: 0.5em solid #000;
+    padding: 0 1em;
+    margin: 1.5em 0;
 
     p {
-      font-weight: bold;
+      font-weight: 700;
     }
   }
 
@@ -89,3 +94,37 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .container .post {
+    h2 {
+      font-size: 3em;
+    }
+
+    p {
+      font-size: 1em;
+
+      &.meta {
+        font-size: 1em;
+      }
+    }
+
+    ul,
+    ol {
+      li {
+        font-size: 1em;
+      }
+    }
+  }
+
+  body.body-home {
+    .container .post {
+      margin-bottom: 4em;
+    }
+  }
+
+  body.body-post {
+    .container .post {
+      margin-bottom: 4em;
+    }
+  }
+}

@@ -1,8 +1,8 @@
 footer {
   border-bottom: 1px dotted #ddd;
   color: #555;
-  margin: 0 0 92px 0;
-  padding: 0 0 24px 0;
+  margin: 0 0 6em 0;
+  padding: 0 0 2em 0;
 
   a {
     color: #555;
@@ -11,29 +11,29 @@ footer {
   h6 {
     border-top: 1px dotted #ddd;
     color: #777;
-    font-size: 14px;
+    font-size: 0.75em;
     font-weight: 700;
     letter-spacing: 1px;
-    margin: 0 0 16px 0;
+    margin: 0 0 1.25em 0;
     position: relative;
     text-align: center;
     text-transform: uppercase;
 
     span {
       background: #fff;
-      padding: 0 18px;
+      padding: 0 1em;
       position: relative;
-      top: -8px;
+      top: -0.5em;
     }
   }
 
   ul {
     @extend .clearfix;
-    margin: 0 0 12px 0;
+    margin: 0 0 0.75em 0;
 
     li {
       @include box-sizing(border-box);
-      padding: 0 0 6px 0;
+      padding: 0 0 0.25em 0;
       text-align: center;
 
       a {
@@ -42,20 +42,26 @@ footer {
         display: inline;
         font-weight: 400;
         line-height: 1.4;
-        margin: 0 0 4px 0;
+        margin: 0 0 0.25em 0;
       }
 
       .date {
         color: #999;
         display: inline;
-        font-size: 12px;
+        font-size: 0.75em;
         font-weight: 300;
-        margin: 0 0 0 4px;
+        margin: 0 0 0 0.25em;
       }
     }
   }
 
   p {
     line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    margin-bottom: 3em;
   }
 }

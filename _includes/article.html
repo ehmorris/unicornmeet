@@ -1,10 +1,10 @@
 <div class="post">
   {% if index %}
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <p class="meta">{{ post.author }} &bull; <a href="{{ post.url }}">{{post.date | date: "%d %B %Y" }}</a></p>
+    <p class="meta">{{ post.author }} / <a href="{{ post.url }}">{{post.date | date: "%d %B %Y" }}</a></p>
   {% else %}
     <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-    <p class="meta">{{ page.author }} &bull; <a href="{{ page.url }}">{{page.date | date: "%d %B %Y" }}</a></p>
+    <p class="meta">{{ page.author }} / <a href="{{ page.url }}">{{page.date | date: "%d %B %Y" }}</a></p>
   {% endif %}
 
   {{ content }}

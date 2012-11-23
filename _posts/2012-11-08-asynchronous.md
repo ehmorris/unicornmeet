@@ -17,17 +17,17 @@ The past few years have seen great strides in our ability to deliver these kinds
 
 <ul>
   <li>
-    <strong>Lie: update the UI asynchronously</strong>
+    <em>Lie: update the UI asynchronously</em>
     <p>Show users the results of an action right away, even though the server has not yet returned a response.</p>
   </li>
 
   <li>
-    <strong>Cheat: pretend there&rsquo;s no server.</strong>
+    <em>Cheat: pretend there&rsquo;s no server.</em>
     <p>Update the client-side and force the server to notify the client if there are failures.</p>
   </li>
 
   <li>
-    <strong>Steal: steal data from the client when they&rsquo;re not looking</strong>
+    <em>Steal: steal data from the client when they&rsquo;re not looking</em>
     <p>If a process must be done on the server-side, initiate the request as soon as possible rather than waiting for the user to send it.</p>
   </li>
 </ul>
