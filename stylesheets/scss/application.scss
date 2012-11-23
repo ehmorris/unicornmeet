@@ -13,13 +13,21 @@ body {
   font-weight: 400;
 }
 
+.wf-loading h2,
+.wf-loading p,
+.wf-loading h6,
+.wf-loading ul,
+.wf-loading ol {
+  visibility: hidden;
+}
+
 a {
   color: #000;
   font-weight: 700;
   text-decoration: none;
 
   &:hover {
-    border-bottom: 1px solid #222;
+    border-bottom: 1px solid #000;
   }
 }
 
