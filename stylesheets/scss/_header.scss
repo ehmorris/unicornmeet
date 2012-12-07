@@ -1,22 +1,24 @@
 header {
-  @extend .clearfix;
+  margin: 3em auto 6em;
 
   ol {
     @extend .clearfix;
-    float: right;
-    margin: 1.5em;
+    margin: 0 auto;
+    text-align: center;
+  }
 
-    li {
-      h1 {
-        a {
-          border-bottom: 4px solid #000;
-          font-size: 1.75em;
-          font-weight: 900;
-          text-transform: uppercase;
-        }
+  h1 {
+    a {
+      border-bottom: 4px solid rgb(236, 85, 90);
+      font-size: 1.5em;
+      font-weight: 900;
+      display: inline-block;
+      text-transform: uppercase;
+
+      &:hover {
+        border-bottom: 4px solid #000;
       }
     }
   }
-
 }
 

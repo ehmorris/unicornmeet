@@ -49,17 +49,32 @@ table {
 
 /* Clear Floated Elements
 ------------------------------------------------------------------------------*/
-.clearfix:before, footer ul:before,
+.clearfix:before, header ol:before, footer ul:before,
 .clearfix:after,
+header ol:after,
 footer ul:after {
   content: " ";
   display: table; }
 
-.clearfix:after, footer ul:after {
+.clearfix:after, header ol:after, footer ul:after {
   clear: both; }
 
-.clearfix, footer ul {
+.clearfix, header ol, footer ul {
   *zoom: 1; }
+
+header {
+  margin: 3em auto 6em; }
+  header ol {
+    margin: 0 auto;
+    text-align: center; }
+  header h1 a {
+    border-bottom: 4px solid #ec555a;
+    font-size: 1.5em;
+    font-weight: 900;
+    display: inline-block;
+    text-transform: uppercase; }
+    header h1 a:hover {
+      border-bottom: 4px solid #000; }
 
 .container .post {
   border-bottom: 1px dotted #ddd;
@@ -208,13 +223,11 @@ a {
 
 .container {
   max-width: 38em;
-  margin: 4em auto; }
+  margin: 2em auto 4em; }
 
 .home {
   margin: 1.5em;
   text-align: right; }
-  body.body-home .home {
-    display: none; }
   .home a {
     border-bottom: 4px solid #000;
     display: inline-block;

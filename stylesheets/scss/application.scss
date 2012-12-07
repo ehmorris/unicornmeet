@@ -1,6 +1,7 @@
 @import 'reset';
 @import 'bourbon/bourbon';
 @import 'mixins';
+@import 'header';
 @import 'post';
 @import 'footer';
 
@@ -32,16 +33,12 @@ a {
 
 .container {
   max-width: 38em;
-  margin: 4em auto;
+  margin: 2em auto 4em;
 }
 
 .home {
   margin: 1.5em;
   text-align: right;
-
-  body.body-home & {
-    display: none;
-  }
 
   a {
     border-bottom: 4px solid #000;
