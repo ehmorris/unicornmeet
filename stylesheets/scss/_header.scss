@@ -1,24 +1,31 @@
 header {
-  margin: 3em auto 6em;
+  margin: -7em 0 0 1em;
+  position: fixed;
 
   ol {
     @extend .clearfix;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
   }
 
   h1 {
     a {
-      border-bottom: 4px solid rgb(236, 85, 90);
-      font-size: 1.5em;
+      border: 3px solid rgb(236, 85, 90);
+      font-size: 1.25em;
       font-weight: 900;
       display: inline-block;
+      padding: 0.4em 0.6em;
       text-transform: uppercase;
 
       &:hover {
-        border-bottom: 4px solid #000;
+        border: 3px solid #000;
       }
     }
   }
 }
 
+@media screen and (max-width: 660px) {
+  header {
+    position: absolute;
+  }
+}
