@@ -89,7 +89,10 @@ header {
     padding-top: 6em; }
   .container .post-container:last-child {
     border-bottom: 0;
-    padding-bottom: 0; }
+    padding-bottom: 3em; }
+  body.body-home .container .post-container:last-child {
+    border-bottom: 0;
+    padding-bottom: 2em; }
   .container .post-container:not(:first-child) {
     margin: 1em 0 1em 0;
     padding: 1em 0 2em 0; }
@@ -103,8 +106,6 @@ header {
 .container .post {
   margin: 0 auto;
   max-width: 38em; }
-  body.body-post .container .post {
-    margin: 0 auto 6em auto; }
   .container .post h2 {
     color: #000;
     font-size: 3.25em;
@@ -161,6 +162,8 @@ header {
     padding-right: 1em; }
     .container .post-container .post .post-info h2 {
       font-size: 2.5em; }
+  .container .post-container:first-child {
+    padding-bottom: 2em; }
   .container .post-container:not(:first-child) .post .post-info h2 {
     font-size: 1.75em; } }
 footer {
