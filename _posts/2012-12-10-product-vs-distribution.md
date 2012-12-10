@@ -7,7 +7,7 @@ author: Chad Mazzola
 
 Product and distribution were once separate spheres. The processes involved in making a product were distinct from those involved in distributing it.
 
-For web-based products, these two worlds have collided. Distribution is done by features within the product itself: 'Like' to unlock, pay with a tweet, invite friends for credits.
+For web-based products, these two worlds have collided. Distribution is often done by features within the product itself: 'Like' to unlock, pay with a tweet, invite friends for credits.
 
 Customers no longer pay for these products with money, but by getting them into the hands of more people, with ads (or other more nebulous sources) providing revenue. Much debate has been had about the merits and flaws of this strategy, but given its ability to create highly-valued businesses, it will continue to be used.
 
