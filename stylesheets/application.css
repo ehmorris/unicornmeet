@@ -63,8 +63,8 @@ footer ul:after {
   *zoom: 1; }
 
 header {
-  margin: -7em 0 0 1em;
-  position: fixed; }
+  margin: 1em 0 0 1em;
+  position: absolute; }
   header ol {
     margin: 0 auto;
     text-align: left; }
@@ -81,22 +81,35 @@ header {
 @media screen and (max-width: 660px) {
   header {
     position: absolute; } }
-.container .post {
-  border-bottom: 1px dotted #ddd;
-  margin: 0 0 6em 0;
-  padding: 0 0 4em; }
-  .container .post:last-child {
+.container .post-container {
+  border-bottom: 1px solid #f3f3f3;
+  margin: 0 0 1em 0;
+  padding: 0 0 6em 0; }
+  .container .post-container:first-child {
+    padding-top: 6em; }
+  .container .post-container:last-child {
     border-bottom: 0;
     padding-bottom: 0; }
+  .container .post-container:not(:first-child) {
+    margin: 1em 0 1em 0;
+    padding: 1em 0 2em 0; }
+    .container .post-container:not(:first-child) .post .post-info h2 {
+      font-size: 2.75em;
+      margin: 0; }
+      .container .post-container:not(:first-child) .post .post-info h2 a:hover {
+        color: #ec555a; }
+    .container .post-container:not(:first-child) .post .post-content {
+      display: none; }
+.container .post {
+  margin: 0 auto;
+  max-width: 38em; }
   body.body-post .container .post {
-    border-bottom: 0;
-    margin: 0 0 8em 0;
-    padding: 0; }
+    margin: 0 auto 6em auto; }
   .container .post h2 {
     color: #000;
     font-size: 3.25em;
     font-weight: 900;
-    margin: 0 0 0.25em 0; }
+    margin: 0 0 0.75em 0; }
     .container .post h2 a {
       color: inherit;
       font-weight: inherit;
@@ -108,13 +121,15 @@ header {
     line-height: 1.5;
     margin: 0 0 0.75em 0; }
     .container .post p.meta {
-      color: #555;
-      font-size: 1em;
-      margin: 0 0 2.5em 0; }
+      color: #333;
+      font-size: 0.9em;
+      font-weight: 700;
+      margin: 0 0 0.25em 0;
+      text-transform: uppercase; }
       .container .post p.meta a {
         border: 0;
         color: inherit;
-        font-weight: 400;
+        font-weight: 700;
         text-decoration: none; }
         .container .post p.meta a:hover {
           border-bottom: 1px solid #777; }
@@ -140,24 +155,26 @@ header {
   .container .post em {
     font-style: italic; }
 
-@media screen and (max-width: 600px) {
-  .container .post h2 {
-    font-size: 2.5em; }
-
-  body.body-home .container .post {
-    margin-bottom: 4em; }
-
-  body.body-post .container .post {
-    margin-bottom: 4em; } }
+@media screen and (max-width: 660px) {
+  .container .post-container .post {
+    padding-left: 1em;
+    padding-right: 1em; }
+    .container .post-container .post h2 {
+      font-size: 2.5em; } }
 footer {
-  border-bottom: 1px dotted #ddd;
   color: #555;
-  margin: 0 0 6em 0;
+  margin: 0 auto;
+  max-width: 38em;
   padding: 0 0 2em 0; }
+  body.body-home footer {
+    max-width: 100%; }
+    body.body-home footer p {
+      margin: 0 auto;
+      max-width: 38em; }
   footer a {
     color: #555; }
   footer h6 {
-    border-top: 1px dotted #ddd;
+    border-top: 1px solid #f3f3f3;
     color: #777;
     font-size: 0.75em;
     font-weight: 700;
@@ -195,9 +212,10 @@ footer {
   footer p {
     line-height: 1.5; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
   footer {
-    margin-bottom: 3em; } }
+    margin-left: 1em;
+    margin-right: 1em; } }
 body {
   background: #fff;
   color: #000;
@@ -219,11 +237,8 @@ a {
   a:hover {
     border-bottom: 1px solid #000; }
 
-.container {
-  max-width: 38em;
-  margin: 8em auto 4em; }
-
 .home {
+  display: none;
   margin: 1.5em;
   text-align: right; }
   .home a {
@@ -232,8 +247,3 @@ a {
     font-size: 1.75em;
     font-weight: 900;
     text-transform: uppercase; }
-
-@media screen and (max-width: 660px) {
-  .container {
-    margin-left: 1em;
-    margin-right: 1em; } }

@@ -1,15 +1,24 @@
 footer {
-  border-bottom: 1px dotted #ddd;
   color: #555;
-  margin: 0 0 6em 0;
+  margin: 0 auto;
+  max-width: 38em;
   padding: 0 0 2em 0;
+
+  body.body-home & {
+    max-width: 100%;
+
+    p {
+      margin: 0 auto;
+      max-width: 38em;
+    }
+  }
 
   a {
     color: #555;
   }
 
   h6 {
-    border-top: 1px dotted #ddd;
+    border-top: 1px solid #f3f3f3;
     color: #777;
     font-size: 0.75em;
     font-weight: 700;
@@ -60,8 +69,9 @@ footer {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
   footer {
-    margin-bottom: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 }

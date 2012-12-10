@@ -32,11 +32,10 @@ a {
 }
 
 .container {
-  max-width: 38em;
-  margin: 8em auto 4em;
 }
 
 .home {
+  display: none;
   margin: 1.5em;
   text-align: right;
 
@@ -51,8 +50,6 @@ a {
 
 @media screen and (max-width: 660px) {
   .container {
-    margin-left: 1em;
-    margin-right: 1em;
   }
 }
 

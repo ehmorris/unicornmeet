@@ -1,112 +1,148 @@
-.container .post {
-  border-bottom: 1px dotted #ddd;
-  margin: 0 0 6em 0;
-  padding: 0 0 4em;
+.container {
+  .post-container {
+    border-bottom: 1px solid #f3f3f3;
+    margin: 0 0 1em 0;
+    padding: 0 0 6em 0;
 
-  &:last-child {
-    border-bottom: 0;
-    padding-bottom: 0;
-  }
+    &:first-child {
+      padding-top: 6em;
+    }
 
-  body.body-post & {
-    border-bottom: 0;
-    margin: 0 0 8em 0;
-    padding: 0;
-  }
+    &:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
 
-  h2 {
-    color: #000;
-    font-size: 3.25em;
-    font-weight: 900;
-    margin: 0 0 0.25em 0;
+    &:not(:first-child) {
+      margin: 1em 0 1em 0;
+      padding: 1em 0 2em 0;
 
-    a {
-      color: inherit;
-      font-weight: inherit;
-      text-decoration: none;
+      .post {
+        .post-info {
+          .meta {
+          }
 
-      &:hover {
-        border: 0;
+          h2 {
+            font-size: 2.75em;
+            margin: 0;
+
+            a:hover {
+              color: rgb(236, 85, 90);
+            }
+          }
+        }
+
+        .post-content {
+          display: none;
+        }
       }
     }
   }
 
-  p {
-    font-size: 1em;
-    line-height: 1.5;
-    margin: 0 0 0.75em 0;
+  .post {
+    margin: 0 auto;
+    max-width: 38em;
 
-    &.meta {
-      color: #555;
-      font-size: 1em;
-      margin: 0 0 2.5em 0;
+    body.body-post & {
+      margin: 0 auto 6em auto;
+    }
+
+    h2 {
+      color: #000;
+      font-size: 3.25em;
+      font-weight: 900;
+      margin: 0 0 0.75em 0;
 
       a {
-        border: 0;
         color: inherit;
-        font-weight: 400;
+        font-weight: inherit;
         text-decoration: none;
 
         &:hover {
-          border-bottom: 1px solid #777;
+          border: 0;
         }
       }
     }
 
-    &.divider {
-      text-align: center;
-    }
-  }
-
-  ul,
-  ol {
-    margin: 1em 0;
-
-    li {
+    p {
       font-size: 1em;
       line-height: 1.5;
       margin: 0 0 0.75em 0;
 
-      p {
+      &.meta {
+        color: #333;
+        font-size: 0.9em;
+        font-weight: 700;
+        margin: 0 0 0.25em 0;
+        text-transform: uppercase;
+
+        a {
+          border: 0;
+          color: inherit;
+          font-weight: 700;
+          text-decoration: none;
+
+          &:hover {
+            border-bottom: 1px solid #777;
+          }
+        }
+      }
+
+      &.divider {
+        text-align: center;
+      }
+    }
+
+    ul,
+    ol {
+      margin: 1em 0;
+
+      li {
         font-size: 1em;
+        line-height: 1.5;
+        margin: 0 0 0.75em 0;
+
+        p {
+          font-size: 1em;
+        }
+      }
+    }
+
+    strong {
+      font-weight: 700;
+    }
+
+    blockquote {
+      border-left: 0.5em solid #000;
+      padding: 0 1em;
+      margin: 1.5em 0;
+
+      p {
+      }
+    }
+
+    em {
+      font-style: italic;
+    }
+
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .container .post-container {
+    .post {
+      padding-left: 1em;
+      padding-right: 1em;
+
+      h2 {
+        font-size: 2.5em;
       }
     }
   }
 
-  strong {
-    font-weight: 700;
-  }
-
-  blockquote {
-    border-left: 0.5em solid #000;
-    padding: 0 1em;
-    margin: 1.5em 0;
-
-    p {
-    }
-  }
-
-  em {
-    font-style: italic;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .container .post {
-    h2 {
-      font-size: 2.5em;
-    }
-  }
-
   body.body-home {
-    .container .post {
-      margin-bottom: 4em;
-    }
   }
 
   body.body-post {
-    .container .post {
-      margin-bottom: 4em;
-    }
   }
 }
