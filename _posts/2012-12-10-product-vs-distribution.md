@@ -21,8 +21,6 @@ Examples:
 
 * Prompting users to share the product with their friends before they have a chance to asses its quality or value.
 
-* Sending unexpected messages through users&rsquo; social media profiles.
-
 These types of distribution methods must be avoided at all costs. They may improve short term metrics, but will erode any sense of a mutually beneficial relationship between the product and its users.
 
 A much more effective method is to align distribution goals with user goals. 
