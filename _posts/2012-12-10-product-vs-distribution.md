@@ -31,8 +31,6 @@ Examples:
 
 * For a product or service that makes use of the network effect, asking users to invite friends as a way to improve their experience.
 
-* Offering cash or credit to users who produce an unbiased review of the product or service. It helps future customers make better choices, while potentially serving as a word of mouth referral.
-
 * For games, enabling users to share high scores through social networks, both to brag about their accomplishments and entice friends to join and beat them.
 
 These mechanics provide value to users without requiring them to do something outside their normal range of behavior.
