@@ -19,9 +19,6 @@
 
       .post {
         .post-info {
-          .meta {
-          }
-
           h2 {
             font-size: 2.75em;
             margin: 0;
@@ -72,14 +69,14 @@
       &.meta {
         color: #333;
         font-size: 0.9em;
-        font-weight: 700;
+        font-weight: 400;
         margin: 0 0 0.25em 0;
         text-transform: uppercase;
 
         a {
           border: 0;
           color: inherit;
-          font-weight: 700;
+          font-weight: inherit;
           text-decoration: none;
 
           &:hover {
@@ -134,8 +131,18 @@
       padding-left: 1em;
       padding-right: 1em;
 
-      h2 {
-        font-size: 2.5em;
+      .post-info {
+        h2 {
+          font-size: 2.5em;
+        }
+      }
+    }
+
+    &:not(:first-child) {
+      .post .post-info {
+        h2 {
+          font-size: 1.75em;
+        }
       }
     }
   }
@@ -146,3 +153,4 @@
   body.body-post {
   }
 }
+
