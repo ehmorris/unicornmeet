@@ -63,7 +63,7 @@
     }
 
     p {
-      font-size: 1em;
+      font-size: 1.25em;
       line-height: 1.5;
       margin: 0 0 0.75em 0;
 
@@ -96,7 +96,7 @@
       margin: 1em 0;
 
       li {
-        font-size: 1em;
+        font-size: 1.25em;
         line-height: 1.5;
         margin: 0 0 0.75em 0;
 
@@ -104,6 +104,10 @@
           font-size: 1em;
         }
       }
+    }
+
+    ul {
+      list-style: outside disc;
     }
 
     strong {
@@ -136,6 +140,20 @@
         h2 {
           font-size: 2.5em;
         }
+
+        .meta {
+          font-size: 0.9em;
+        }
+      }
+
+      ul {
+        margin: 0 0 0 1.1em;
+      }
+
+      p,
+      ul li,
+      ol li {
+        font-size: 1em;
       }
     }
 

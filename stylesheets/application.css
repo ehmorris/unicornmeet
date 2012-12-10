@@ -118,7 +118,7 @@ header {
       .container .post h2 a:hover {
         border: 0; }
   .container .post p {
-    font-size: 1em;
+    font-size: 1.25em;
     line-height: 1.5;
     margin: 0 0 0.75em 0; }
     .container .post p.meta {
@@ -141,12 +141,14 @@ header {
     margin: 1em 0; }
     .container .post ul li,
     .container .post ol li {
-      font-size: 1em;
+      font-size: 1.25em;
       line-height: 1.5;
       margin: 0 0 0.75em 0; }
       .container .post ul li p,
       .container .post ol li p {
         font-size: 1em; }
+  .container .post ul {
+    list-style: outside disc; }
   .container .post strong {
     font-weight: 700; }
   .container .post blockquote {
@@ -162,6 +164,14 @@ header {
     padding-right: 1em; }
     .container .post-container .post .post-info h2 {
       font-size: 2.5em; }
+    .container .post-container .post .post-info .meta {
+      font-size: 0.9em; }
+    .container .post-container .post ul {
+      margin: 0 0 0 1.1em; }
+    .container .post-container .post p,
+    .container .post-container .post ul li,
+    .container .post-container .post ol li {
+      font-size: 1em; }
   .container .post-container:first-child {
     padding-bottom: 2em; }
   .container .post-container:not(:first-child) .post .post-info h2 {
