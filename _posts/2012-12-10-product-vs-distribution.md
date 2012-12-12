@@ -23,7 +23,7 @@ Examples:
 
 These types of distribution methods must be avoided at all costs. They may improve short term metrics, but will erode any sense of a mutually beneficial relationship between the product and its users.
 
-A much more effective method is to align distribution goals with user goals. 
+A more effective method is to align distribution goals with user goals. 
 
 Examples:
 
