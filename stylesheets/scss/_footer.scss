@@ -70,8 +70,14 @@ footer {
 }
 
 @media screen and (max-width: 660px) {
-  footer {
-    margin-left: 1em;
-    margin-right: 1em;
+  body.body-post,
+  body.body-home {
+    footer {
+      ul,
+      p {
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+    }
   }
 }

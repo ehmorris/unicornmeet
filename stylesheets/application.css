@@ -229,7 +229,10 @@ footer {
     line-height: 1.5; }
 
 @media screen and (max-width: 660px) {
-  footer {
+  body.body-post footer ul,
+  body.body-post footer p,
+  body.body-home footer ul,
+  body.body-home footer p {
     margin-left: 1em;
     margin-right: 1em; } }
 body {
