@@ -46,9 +46,11 @@
     max-width: 38em;
 
     h2 {
-      color: #000;
-      font-size: 3.25em;
-      font-weight: 900;
+      color: #222;
+      font-family: ff-meta-serif-web-pro, helvetica;
+      font-size: 3em;
+      font-weight: 700;
+      line-height: 1.1;
       margin: 0 0 0.75em 0;
 
       a {
@@ -68,7 +70,6 @@
       margin: 0 0 0.75em 0;
 
       &.meta {
-        color: #333;
         font-size: 0.9em;
         font-weight: 400;
         margin: 0 0 0.25em 0;

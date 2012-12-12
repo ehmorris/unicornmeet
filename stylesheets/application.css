@@ -107,9 +107,11 @@ header {
   margin: 0 auto;
   max-width: 38em; }
   .container .post h2 {
-    color: #000;
-    font-size: 3.25em;
-    font-weight: 900;
+    color: #222;
+    font-family: ff-meta-serif-web-pro, helvetica;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1.1;
     margin: 0 0 0.75em 0; }
     .container .post h2 a {
       color: inherit;
@@ -122,7 +124,6 @@ header {
     line-height: 1.5;
     margin: 0 0 0.75em 0; }
     .container .post p.meta {
-      color: #333;
       font-size: 0.9em;
       font-weight: 400;
       margin: 0 0 0.25em 0;
@@ -233,7 +234,7 @@ footer {
     margin-right: 1em; } }
 body {
   background: #fff;
-  color: #000;
+  color: #333;
   font-family: franklin-gothic-urw, "helvetica neue", helvetica, arial, sans-serif;
   font-size: 100%;
   font-weight: 400; }
@@ -251,14 +252,3 @@ a {
   text-decoration: none; }
   a:hover {
     border-bottom: 1px solid #000; }
-
-.home {
-  display: none;
-  margin: 1.5em;
-  text-align: right; }
-  .home a {
-    border-bottom: 4px solid #000;
-    display: inline-block;
-    font-size: 1.75em;
-    font-weight: 900;
-    text-transform: uppercase; }
