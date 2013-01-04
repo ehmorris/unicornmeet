@@ -11,7 +11,7 @@ Writing is not only a means of communication, it's also a way of discovering ide
 
 The word design has come to mean so many things that it now risks meaning nothing at all. But instead of attempting to draw firm boundaries around it, what if we saw the dilution of design as a clue to its true nature?
 
-What if we said design is a name for a universal process of problem solving. From here we see the essence of design in Napoleon commanding his army just as much as we see it in the products of Dieter Rams. Treating an illness, preparing a meal, solving a math problem -- these are all acts of design.
+What if we view design as a universal process of problem solving? From here we see the essence of design in Napoleon commanding his army just as much as we see it in the products of Dieter Rams. Treating an illness, preparing a meal, solving a math problem -- these are all acts of design.
 
 Kenya Hara has written about his idea for the zero point of design. It's the image of human hands. In one view, they are balled into fists to clutch a stick. In the other, they are cupped together to bring water out of a stream. This simple scene illustrates not only the ethical questions implicit in design, but the beginning of the long iterative process that brought us to where we stand today.
 
