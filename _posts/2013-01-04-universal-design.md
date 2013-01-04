@@ -5,7 +5,7 @@ title: The million year view of design
 author: Chad Mazzola
 ---
 
-With the New Year here, and as I prep to leave the country for a week, I wanted to reflect on what I've learned from writing for this site.
+With the new year here, and as I prep to leave the country for a week, I wanted to reflect on what I've learned from writing for this site.
 
 Writing is not only a means of communication, it's also a way of discovering ideas. In the process of writing these posts, I've been moving away from considering the nuts and bolts of building software on the web (the implicit field that framed my ideas) towards more open-ended reflection on design and its place in the world. I've been attempting to look beyond the assumptions and biases that frame my thinking and find ideas that integrate and unify design as a practice, method, and perspective.
 
