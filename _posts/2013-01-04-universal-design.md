@@ -17,6 +17,6 @@ Kenya Hara has written about his idea for the zero point of design. It's the ima
 
 But the true zero point of design is prior even to the appearance of humans. It's present in existence itself. The theist likely wants a word here, so let's state it plainly. Humanity was mistaken to believe that a single mind designed the natural world. It evolved from a set of simple rules. Design was -- and is -- evolution, not a single decision. We make the same mistake today when we see design as primarily the work of individuals rather than a space of possibility. 
 
-Discussions about the role of design in business and society are useful, but miss the fact that design is already present everywhere, all the time. Thinking about design is a useful way of exploring the space of possibilities available to us as we continue to shape the world we live in.
+Discussions about the role of design in business and society are useful, but miss the fact that design is already present everywhere, all the time. Thinking about design is a way of exploring the space of possibilities available to us as we continue to shape the world we live in.
 
 My plan is to continue to explore the space of possibility that this site opens up.
